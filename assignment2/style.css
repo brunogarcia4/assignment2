@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e8effa;
+    color: #333;
+    margin: 0;
+    padding: 0 20px 40px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #005cbf;
+    font-size: 48px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+.lyrics {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.lyrics p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #4a4a4a;
+    transition: transform 0.3s ease;
+}
+
+.lyrics p:hover {
+    transform: scale(1.03);
+}
+
+.lyrics p.chorus {
+    font-weight: bold;
+    color: #002855;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #005cbf;
+    border-radius: 8px;
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: #e8effa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
